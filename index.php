@@ -7,10 +7,26 @@
 
 <?php
 
-	$age = 10;
- 
-	echo "<h1>$age</h1>"
+define("CONSTANT","ABC Petworld");
+
+echo CONSTANT;
+
 ?>
+
+<br />
+
+<?php
+
+	unset($age);
+ 
+	echo @$age;
+
+	$age = 20;
+
+	echo "$age<br />";
+?>
+
+
 
 </body>
 
