@@ -17,9 +17,11 @@ echo CONSTANT;
 
 <?php
 
-	unset($age);
+	$age = 22;
+
+	unset($age); //This unsets the $age variable without effecting it's use in prior sections of code
  
-	echo @$age;
+	echo @$age; //Without using the @ symbol we would receive an error msg as the variable we are trying to echo has been unset.
 
 	$age = 20;
 
