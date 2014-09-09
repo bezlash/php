@@ -44,7 +44,7 @@ echo "<br /><br />";
 
 foreach($capitals as $city)
 {
-	echo "$city<br />"; // The <br /> linebreak adds a line break for each value output.
+	echo "$city<br />"; // The <br /> linebreak adds a line break for each value output
 }
 
 ?>
