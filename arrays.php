@@ -55,5 +55,14 @@ echo "<pre>"; //The browser returns the var_dump in html in one long line.  Tell
 var_dump($capitals);
 echo "<pre>";
 
+unset ($capitals['PA']); //This unsets a key/value from your arrayand removes the string. As you can see from the var_dump below.
+
+echo "<pre>";
+var_dump($capitals);
+echo "<pre>";
+
+
+
+
 
 ?>
