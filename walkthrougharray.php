@@ -47,4 +47,38 @@ foreach($capitals as $city)
 	echo "$city<br />"; // The <br /> linebreak adds a line break for each value output
 }
 
+echo "<br /><br />";
+
+#Picked up over a week later so below is for practice of above
+
+$cars = array("B"=>"BMW","M"=>"Mercedes-Benz","A"=>"Audi","H"=>"Honda");
+
+ksort($cars);
+
+foreach($cars as $model)
+{
+	echo "$model<br />";
+}	
+
+echo "<br /><br />";
+
+krsort($cars);
+
+foreach($cars as $carcode => $model)
+{
+	echo "$carcode, $model<br />";
+}
+
+echo "<br /><br />";
+
+reset($cars);
+
+$manual = current ($cars);
+echo "$manual<br />";
+$manual = next ($cars);
+echo "$manual<br />";
+$manual = end ($cars);
+echo "$manual<br />";
+
+
 ?>
