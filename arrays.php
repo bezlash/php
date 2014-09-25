@@ -46,7 +46,7 @@ echo "<br /><br />";
 
 #To see the array structure
 
-print_r($capitals); //This shows the keyand values
+print_r($capitals); //This shows the key and values
 echo "<br /><br />";
 var_dump($capitals); //The var_dump shows the data type and length of strin gin addition to the keys and values
 echo "<br /><br />";
